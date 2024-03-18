@@ -18,9 +18,10 @@ let [foodItems, setFoodItems] =useState(["DAL", "RICE",  "VEGGIE"]);
   const onKeyDown = (event) => {
     if (event.key === 'Enter'){
     let newFoodItem=event.target.value;
+    console.log("Food value entered is" + newFoodItem);
   };
-    console.log(event);
-    setTextState(event.target.value);
+    // console.log(event);
+    // setTextState(event.target.value);
   };
   return (
     <>
